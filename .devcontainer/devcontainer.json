@@ -1,0 +1,17 @@
+{
+  "name": "Vue Colosseum",
+  "dockerComposeFile": "docker-compose.yml",
+  "shutdownAction": "stopCompose",
+  "service": "vue-colosseum",
+  "workspaceFolder": "/workspace",
+  "settings": {
+    "editor.autoClosingQuotes": "always",
+    "prettier.trailingComma": "none"
+  },
+  "extensions": [
+    "oderwat.indent-rainbow",
+    "esbenp.prettier-vscode",
+    "octref.vetur",
+    "ritwickdey.liveserver"
+  ]
+}

@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  vue-colosseum:
+    build:
+      context: ..
+      dockerfile: .devcontainer/Dockerfile
+    volumes:
+      - ..:/workspace
+    command: sleep infinity
